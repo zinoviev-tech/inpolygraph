@@ -1,23 +1,9 @@
-# Online fact-checking service Inpolygraph
+# ПО для улучшения достоверности текстов Inpolygraph
 
-Inpolygraph is an online fact-checking service based on official implementation of paper "[Towards LLM-based Fact Verification on News Claims with a Hierarchical Step-by-Step Prompting Method](https://arxiv.org/abs/2310.00305)".
+При разработке использована официальная реалиция алгоритма из научной статьи: "[Towards LLM-based Fact Verification on News Claims with a Hierarchical Step-by-Step Prompting Method](https://arxiv.org/abs/2310.00305)".
 
-## Introduction
+## Суть проекта
 
-1. We introduce a Hierarchical Step-by-Step (HiSS) prompting method which directs LLMs to separate a claim into several subclaims and then verify each of them via multiple questions-answering steps progressively.
+1. В данном проекте HiSS-алгоритм использован для принятия решения об исправлении того или иного фрагмента текста.
 
-2. Experiment results on two public misinformation datasets show that HiSS prompting outperforms state-of-the-art fully-supervised approach and strong few-shot ICL-enabled baselines.
 
-## Datasets
-
-This repository uses data from the [RawFC](https://github.com/Nicozwy/CofCED/tree/main/Datasets/RAWFC) and [LIAR](https://huggingface.co/datasets/liar) datasets. 
-
-## Setup
-
-1. Obtain an OpenAI API key and save it to the environment variable `OPENAI_API_KEY`.
-
-2. Obtain a [SerpApi](https://serpapi.com/) key and save it to the environment variable `SERPAPI_KEY`.
-   
-## Citation
-
-TBD
