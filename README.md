@@ -8,4 +8,4 @@
 
 ## Демонстрация проттотипа
 
-[httpsinpolygraph.ru](https://inpolygraph.ru/)https://inpolygraph.ru/
+https://inpolygraph.ru/
