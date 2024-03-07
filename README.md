@@ -1,4 +1,4 @@
-# ПО для фактчекинга текстов inpolygraph
+# Фактчекинга текстов с помощью LLM-агентов
 
 При разработке использована официальная реалиция алгоритма из научной статьи: "[Towards LLM-based Fact Verification on News Claims with a Hierarchical Step-by-Step Prompting Method](https://arxiv.org/abs/2310.00305)".
 
